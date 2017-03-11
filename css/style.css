@@ -1,0 +1,122 @@
+html, body {
+    height: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+	background-color: #3399CC;
+    height: 100%;
+    border: 10px solid #2B81AC;
+    overflow: auto;
+}
+.wrapper {
+	width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+.header-title {
+	color: #fff;
+    font-size: 30px;
+    line-height: 1;
+}
+.header-title-icon {
+    margin-left: 3px;
+    line-height: 1.2;
+}
+.main-content {
+	margin-top: 20px;
+}
+.list-weather {
+	list-style: none;
+    padding-left: 0;
+    color: #fff;
+    font-size: 0;
+    border: 2px solid #fff;
+    background-color: #fff;
+}
+.list-weather:hover > li {
+    opacity: 0.5;
+}
+.list-weather li:hover {
+    opacity: 1;
+}
+
+.list-weather li {
+    font-size: 24px;
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid #fff;
+    text-align: center;
+    vertical-align: top;
+    height: 100%;
+    transition: opacity 1s ease-in;
+}
+.wrapper-content-weather{
+    display: block;
+    margin-top: 5px;
+    position: relative;
+    line-height: 1;
+}
+.wrapper-content-weather i {
+    margin-left: 3px;
+    font-size: 28px;
+    position: relative;
+    top:4px;
+}
+.footer-content {
+	margin-top: 20px;
+}
+.footer-descr {
+	color: #fff;
+    font-size: 20px;
+}
+
+.lisabon-weather {
+	width: 50%;
+    background-color: #3399CC;
+}
+.paris-weather {
+	width: 25%;
+    background-color: #33CCCC;
+}
+.belgrade-weather {
+	width: 25%;
+    background-color: #996699;
+}
+.moscow-weather {
+	width: 25%;
+    background-color: #C24747;
+}
+.tel-aviv-weather {
+	width: 25%;
+    background-color: #E2674A;
+}
+.cair-weather {
+	width: 25%;
+    background-color: #FFCC66;
+}
+.new-york-weather {
+	width: 25%;
+    background-color: #99CC99;
+}
+.new-delhi-weather {
+	width: 25%;
+    background-color: #669999;
+}
+.san-francisco-weather {
+	width: 50%;
+    background-color: #CC6699;
+}
+.tokyo-weather {
+	width: 25%;
+    background-color: #339966;
+}
+.sydney-weather {
+	width: 100%;
+    background-color: #666699;
+}
